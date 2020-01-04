@@ -1,6 +1,6 @@
 # USM Games Launcher
 
-This launcher was initially made for the Nerdonomicon 2019, Valparaíso, Chile to launch the games made by member of our initiative.
+This launcher was initially made for the Nerdonomicon 2019, Valparaíso, Chile to launch the games made by members of our initiative.
 
 ## Build
 
