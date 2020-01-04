@@ -8,7 +8,7 @@ body{
     overflow-y: hidden;
 }
 .mainFrame{
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, serif;
     font-style: normal;
 
     position: relative;
