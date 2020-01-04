@@ -1,9 +1,9 @@
 body{
     background-image: url(./Images/background.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 60vh;
     padding: calc(70vh - 100px) 0 0;
     overflow-y: hidden;
 }
@@ -13,11 +13,17 @@ body{
 
     position: relative;
     width: 100%;
-    height: 200px;
+    height: 100px;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.info{
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
 }
 .container{
     display: flex;
@@ -37,9 +43,6 @@ body{
     margin: 0 5px;  
     color: white;
 
-}
-.container > div > a :hover {
-    color: white;
 }
 
 .item {
