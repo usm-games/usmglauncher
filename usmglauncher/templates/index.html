@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>USM Games Launcher</title>
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="../static/animate.css">
+</head>
+
+
+<body>
+    <div class="mainFrame">
+        <div class="container">
+            <div class="item item1 animated bounce" onmouseenter="animateCSS('.item1', 'tada', null)"
+                 onclick="location.href = '/launch/innermadness'">
+            </div>
+            <div class="item item2 animated bounce" onmouseenter="animateCSS('.item2', 'tada', null)"
+                onclick="location.href = '/launch/project64'">
+            </div>
+            <div class="item item3 animated bounce" onmouseenter="animateCSS('.item3', 'tada', null)"
+                onclick="location.href = '/launch/famitracker'">
+            </div>
+            <div class="item item4 animated bounce" onmouseenter="animateCSS('.item4', 'tada', null)"
+                onclick="location.href = '/launch/innermadness'">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script>
+    function animateCSS(element, animationName, callback) {
+        const node = document.querySelector(element);
+        node.classList.add('animated', animationName);
+
+        function handleAnimationEnd() {
+            node.classList.remove('animated', animationName);
+            node.removeEventListener('animationend', handleAnimationEnd);
+
+            if (typeof callback === 'function') callback()
+        }
+
+        node.addEventListener('animationend', handleAnimationEnd)
+    }
+</script>
+
+
+</html>

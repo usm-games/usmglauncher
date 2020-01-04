@@ -1,0 +1,67 @@
+body{
+    background-image: url(./Images/background.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    padding: calc(70vh - 100px) 0 0;
+    overflow-y: hidden;
+}
+.mainFrame{
+    font-family: Nunito Sans;
+    font-style: normal;
+
+    position: relative;
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+}
+
+.container > div{
+    display: flex;
+    background-color: white;
+    box-sizing: content-box;
+    height: 200px ;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    margin: 0 5px;  
+    color: white;
+
+}
+.container > div > a :hover {
+    color: white;
+}
+
+.item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.item1{
+    background-image: url(./Images/instagram.png);
+}
+.item2{
+    background-image: url(./Images/Maqueta2.png);
+}
+.item3{
+    background-image: url(./Images/food\ wars.jpg);
+}
+
+.item4{
+    background-image: url(./Images/WhatsApp\ Image\ 2020-01-03\ at\ 21.44.38.jpeg);
+}

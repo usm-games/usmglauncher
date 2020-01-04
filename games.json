@@ -1,0 +1,7 @@
+{
+  "paths": {
+    "example1": "path/to/some/executable.exe",
+    "example2": "path/to/some/executable.exe",
+    "example3": "path/to/some/executable.exe"
+  }
+}
