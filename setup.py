@@ -12,7 +12,7 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        "flask==1.1.1",
+        "flask==2.3.2",
     ],
     entry_points={"console_scripts": ["usmglauncher=usmglauncher.__main__:main"]},
 )
